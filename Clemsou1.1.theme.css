@@ -1,0 +1,155 @@
+//META{"name":"Clemsou","description":"Petit test de thème have fun","author":"Clemsou","version":"1.1"}*//
+
+.theme-dark {
+	background-image: url(https://stmed.net/sites/default/files/styles/1920x1080/public/league-of-legends-hd-wallpapers-33299-1687582.jpg?itok=iVBOXxa7);
+    --header-primary: #000;
+    --header-secondary: #000000;
+    --text-normal: #ffffff;
+    --text-muted: #000000;
+    --text-link: #00b8ff;
+    --channels-default: #000000;
+    --interactive-normal: #000000;
+    --interactive-hover: #000000;
+    --interactive-active: #a5c8ff;
+    --interactive-muted: #fff;
+    --background-primary: url(https://stmed.net/sites/default/files/styles/1920x1080/public/league-of-legends-hd-wallpapers-33299-1687582.jpg?itok=iVBOXxa7);
+    --background-secondary: #ffffff;
+    --background-tertiary: #ffffff;
+    --background-accent: #a5c8ff;
+    --background-floating: #18191c;
+    --background-modifier-hover: rgba(165,200,255,0.3);
+    --background-modifier-active: rgba(165,200,255,0.6);
+    --background-modifier-selected: rgba(255,255,255,0.6);
+    --background-modifier-accent: hsla(0,0%,100%,0.6);
+    --elevation-low: 0 1px 0 rgba(255,255,255,0.6),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: #fff;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #40444b;
+    --activity-card-background: #000000;
+    --deprecated-panel-background: #292b2f;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: transparent;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+    font-family: 'Segoe Script', cursive;
+}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: white;
+    color: black;
+}
+
+.headerTop-3C2Zn0 {
+    background: #a5c8ff;
+}
+
+.video-1FfuMD {
+    background-color: white;
+}
+
+.guilds-1SWlCJ {
+    background: transparent;
+}
+
+.chat-3bRxxu, .form-2fGMdU {
+    background: transparent;
+}
+
+.innerNoAutocomplete-1WpcVO {
+    background: transparent;
+}
+
+.scroller-2FKFPG {
+	background: transparent;
+}
+
+.panels-j1Uci_ { 
+    background: transparent;
+}
+
+#app-mount, .app-2rEoOp, body,
+#app-mount .panels-j1Uci_,
+#app-mount .members-1998pB,
+#app-mount .childWrapper-anI2G9,
+#app-mount .container-PNkimc,
+#app-mount .privateChannels-1nO12o,
+#app-mount .header-ykumBX,
+#app-mount .container-1r6BKw.themed-ANHk51 {
+    background:transparent;
+} 
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid #36393f;
+    border-radius: 7px;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-thumb, .scroller-2FKFPG::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+#app-mount .members-1998pB{
+    background-color: rgba(200,200,200,0.2);
+}
+
+.sidebar-CFHs9e {
+    padding: 60px 6px 60px 20px;
+    margin-left: 0;
+    width: 400px;
+}
+
+.rtcConnectionQualityFine-2J6i8z .ping-2NgC8E, .rtcConnectionStatusConnected-VRZDjy {
+    color: #a5c8ff;
+}
+
+.theme-dark .container-2x5lvQ .header-2C89wJ {
+    background-color: #a5c8ff;
+}
+
+.white-3xi-nx {
+    color: #fff;
+}
+
+.theme-dark .container-2x5lvQ section p {
+	background-color: white;
+    color: hsla(0, 0%, 0%, 0.4);
+}
+
+.theme-dark .container-2x5lvQ section strong {
+    color: #000000;
+}
+
+.menu-Sp6bN1 {
+    background: #ffffff;
+}
+
+.textArea-2Spzkt {
+    color: #000000;
+    font-family: 'Segoe Script', cursive;
+}
+
+.friendsTable-133bsv .friendsTableBody-1ZhKif, .theme-dark .container-3gCOGc {
+	background: white;
+}
+
+.friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
+    border-top: 1px solid hsla(0, 0%, 0%, 0.6);
+}
+
+.contextMenu-HLZMGh {
+	background: white;
+}
+
+.guildNick-3uAm3i, .listName-3w10cx {
+    color: black;
+}
